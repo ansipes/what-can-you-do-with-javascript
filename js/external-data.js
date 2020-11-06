@@ -22,3 +22,6 @@ function updateSrc(src) {
 
 // Wiring it up
 button.addEventListener("click", getData);
+
+// Get intial photo of cat (this way the image isn't broken on page load)
+getData();
