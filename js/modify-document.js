@@ -1,5 +1,5 @@
 // Get reference to the element
-var heading = document.querySelector("h1");
+var heading = document.querySelector("h2");
 
 // Modify the element
 heading.innerText = "Hello World!";
